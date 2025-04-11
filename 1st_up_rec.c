@@ -2,7 +2,7 @@
 
 char find_first_upper(const char *str){
 	if (*str == '\0'){
-		return '\0';
+		return *str;
 	}
 	if (*str >= 'A' && *str <= 'Z'){
 		return *str;
